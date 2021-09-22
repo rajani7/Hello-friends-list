@@ -1,0 +1,31 @@
+.btn-cta > * {
+    margin:0 3px;
+}
+
+.btn-cta {
+    margin: 0 5px;
+}
+
+.btn.active {
+    text-decoration: underline;
+}
+
+.search-add{
+    background-color: var(--primary);
+    padding: 5px;
+    color: white;
+}
+
+.search-close{
+    padding: 5px;
+    margin-left: 2px;
+}
+
+input{
+    padding: 5px;
+    margin-right: 2px;
+}
+
+.fa-list-ul:before, .fa-user-plus:before, .fa-search:before, .fa-heart:before{
+    color:white;
+}

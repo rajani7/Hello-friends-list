@@ -1,0 +1,52 @@
+.list-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 280px;
+}
+
+.friend-list {
+  height: 54px;
+  width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: var(--background);
+  padding: 0 10px
+}
+
+.list-btn {
+  margin: 0 4px;
+}
+
+.list-btn:first-of-type {
+  margin-left: auto;
+}
+
+.pagination {
+  margin: 10px;
+}
+
+.fa, .far, .fas {
+  color: var(--primary);
+}
+
+.pagination-pageIndex {
+  margin: 0 20px;
+}
+
+.list-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0 10px;
+}
+
+.list-small-text {
+  margin-left: 5px;
+  color: gray;
+  font-size: 0.8rem;
+}
+
+.list-medium-text {
+  font-weight: bold;
+}
