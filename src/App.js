@@ -31,31 +31,6 @@ function App() {
       name: 'deepak',
       isFavorite: true,
     },
-    {
-      id: 4,
-      name: 'deepak',
-      isFavorite: true,
-    },
-    {
-      id: 5,
-      name: 'deepak',
-      isFavorite: true,
-    },
-    {
-      id: 6,
-      name: 'deepak',
-      isFavorite: true,
-    },
-    {
-      id: 7,
-      name: 'deepak',
-      isFavorite: true,
-    },
-    {
-      id: 8,
-      name: 'deepak',
-      isFavorite: true,
-    },
   ]
 
   const [friends, setFriends] = useState(list)
