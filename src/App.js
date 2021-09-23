@@ -101,7 +101,8 @@ function App() {
     if (activeScreen === SCREENS.FAVS) {
       filterFavFriends(friends)
     }
-  }, [activeScreen])
+    // eslint-disable-next-line
+  }, [activeScreen, friends])
 
   const friendsToRender = () => {
     switch (activeScreen) {

@@ -32,6 +32,7 @@ const Action = ({ addFriend, searchFriend, activeScreen, setactiveScreen }) => {
           placeholder="Enter your friend name"
           value={friendName}
           onChange={(e) => setfriendName(e.target.value)}
+          autoFocus
         ></input>
         <button
           className="search-add"

@@ -20,7 +20,7 @@ const UsePagination = (rowsPerPage, array) => {
       chunk.push(row)
 
       if (array.length === i + 1) {
-        mainChunk.push(chunk)
+        mainChunk.push(chunk)   
       }
     })
   }
